@@ -161,6 +161,11 @@ android {
             applicationId "com.tencent.ig"
             resValue "string", "app_name", "Bannerlator Bionic PuBG"
         }
+        pubgcn {
+            dimension "version"
+            applicationId "com.tencent.tmgp.pubgmhd"
+            resValue "string", "app_name", "Bannerlator Bionic PuBG CN"
+        }
         antutu {
             dimension "version"
             applicationId "com.antutu.ABenchMark"
