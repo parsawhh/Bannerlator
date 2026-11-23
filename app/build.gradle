@@ -166,6 +166,11 @@ android {
             applicationId "com.tencent.tmgp.pubgmhd"
             resValue "string", "app_name", "Bannerlator Bionic PuBG CN"
         }
+        l22 {
+            dimension "version"
+            applicationId "com.netease.l22"
+            resValue "string", "app_name", "Bannerlator Bionic L22"
+        }
         antutu {
             dimension "version"
             applicationId "com.antutu.ABenchMark"
