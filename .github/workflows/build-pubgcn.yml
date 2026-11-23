@@ -1,4 +1,4 @@
-name: Build PUBG CN flavor
+name: Build alt-package flavors (pubgcn + l22)
 
 # Standalone CI build for the pubgcn flavor: same reusable _build.yml pipeline
 # (native libs, assets, caches) but a single flavor whose applicationId is
@@ -30,4 +30,4 @@ jobs:
     uses: ./.github/workflows/_build.yml
     with:
       release_number: ${{ inputs.release_number || 'pubgcn' }}
-      flavors: '[{"id":"pubgcn","task":"assemblePubgcnRelease"}]'
+      flavors: '[{"id":"pubgcn","task":"assemblePubgcnRelease"},{"id":"l22","task":"assembleL22Release"}]'
